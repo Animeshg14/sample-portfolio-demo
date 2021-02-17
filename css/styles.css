@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+:root {
+    --primary-color: #60A5FA;
+    --off-white: #F3F4F6;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+}
+
+hr {
+    margin: 0rem 0rem;
+}
+
+/* Container */
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Styles for links */
+
+.links {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-bottom: 50%;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 1rem;
+    border: 1px solid;
+}
+
+/* Lists */
+
+.list-no-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* Navigation bar */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .links {
+    color: white;
+}
+
+.navigation .list-no-bullet {
+    text-align: right;
+}
+
+.links-active {
+    font-weight: bold;
+}
+
+/* Header */
+
+.hero {
+    padding: 1rem;
+}
+
+.hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading {
+    padding: 1rem;
+    color: gray;
+    text-align: center;
+}
+
+/* Sections */
+.section {
+    padding: 1rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/* Footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
+    margin:1rem 0rem;
+}
+
+.footer .links{
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
